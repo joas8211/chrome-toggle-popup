@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Toggle Popup",
+	"version": "1.0",
+	"description": "Toggle window type between normal and popup",
+
+	"permissions": [
+		"tabs"
+	],
+
+	"background": {
+		"persistent": false,
+		"scripts": ["background.js"]
+	},
+
+	"commands": {
+		"toggle-popup": {
+			"description": "Toggle window type between normal and popup"
+		}
+	}
+}
